@@ -1,0 +1,118 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+}
+
+.navbarBG{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+
+.logo img{
+    width: auto;
+    height: 3.5rem;
+    padding-top: 0.5rem;
+}
+
+.navMenu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navMenuList {
+    position: relative;
+    margin: 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    font-family: 'Kiona', sans-serif;
+}
+
+.navMenuList::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0.2rem;
+    border-radius: 1rem;
+    bottom: 0;
+    left: 0;
+    background-color: gold;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+  
+.navMenuList:hover::before {
+    transform: scaleX(0.5);
+}
+
+.navMenuList.active {
+    color: gold;
+}
+
+.navMenuList.active::before {
+    transform: scaleX(1);
+}
+
+.toggle{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 840px) {
+    .navMenu.navMenuShow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -3;
+    }
+
+    .navMenu {
+        display: None;
+    }
+
+    .navMenuList {
+        padding: 0.5rem 2rem;
+        font-size: 2rem;
+    }
+
+    .toggle{
+        display: initial;
+    }
+
+    .navMenuList:hover {
+        color: gold;
+        padding-bottom: 0.5rem;
+    }
+    
+    .navMenuList.active {
+        color: gold;
+    }
+
+    .navMenuList::before{
+        background-color: transparent;
+    }
+}

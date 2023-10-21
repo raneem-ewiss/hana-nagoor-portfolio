@@ -1,0 +1,75 @@
+.contact{
+  width: 100%;
+  background-color: #1a1916;
+}
+
+form {
+  width: 50%;
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  align-content: center;
+  margin: 0 25% 0 25%;
+}
+
+.contactLabel {
+  text-transform: capitalize;
+  color: gold;
+}
+
+.contactInput{
+  border-radius: 0.3rem;
+  border: 0.1rem solid #ecebf3;
+  padding: 0.75rem 0.5rem;
+  color: white;
+  outline: none;
+  transition: 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+  resize: none;
+  height: 7.75rem
+}
+
+.contactInput:focus{
+  border-color: gold;
+  background-color: rgba(255, 215, 0, 0.1);
+}
+
+.contactInput::placeholder{
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.contactButton{
+  border-radius: 0.3rem;
+  border: 0.1rem solid gold;
+  padding: 0.75rem 0.5rem;
+  color: #1a1916;
+  background-color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: 20%;
+  margin: 0 40% 0 40%;
+  cursor: pointer;
+}
+
+.contactButton:hover{
+  background-color: rgba(255, 215, 0, 0.5);
+  border: 2px solid rgba(255, 215, 0, 0.5);
+}
+
+.contact p{
+  font-size: 20px;
+  text-align: center;
+}
+
+.contactIcons{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 1rem;
+  column-gap: 2rem;
+}

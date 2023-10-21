@@ -1,0 +1,94 @@
+.header{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header::after{
+    content: '';
+    position: absolute;
+    bottom: -0.1rem;
+    width: 100%;
+    height: 2rem;
+    background: linear-gradient(to top, #1a1916, transparent);
+}
+
+.headerContent{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -100;
+}
+
+.headerContent::after{
+    content: "";
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.headerBG{
+    width: 99.8vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    z-index: 0;
+    position: fixed;
+}
+
+.headerText{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.headerText p{
+    font-style: italic;
+    text-shadow: 0 0.5rem 0.5rem #000;
+    cursor: default;
+}
+
+.headerList{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+    cursor: default;
+}
+
+.headerLinks{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+.headerIcons{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 1rem;
+    column-gap: 2rem;
+}
+
+.headerButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: gold;
+    font-family: 'The Moon', sans-serif;
+    font-size: 0.9rem;
+    font-style: italic;
+    padding-top: 1rem;    
+}

@@ -1,0 +1,27 @@
+.showreel{
+    position: relative;
+    text-align: center;
+    background: #1a1916;
+}
+
+.showreelContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.showreelContent::after{
+    content: '';
+    position: absolute;
+    bottom: -0.1rem;
+    width: 100%;
+    height: 0.25rem;
+    background: #1a1916;
+}
+
+.showreelVideo{
+    width: 50%;
+    height: 50%;
+}

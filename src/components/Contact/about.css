@@ -1,0 +1,99 @@
+.about{
+    height: 100%;
+    background-color: #1a1916;
+}
+
+.aboutContent{
+    margin-top: -5rem;
+    padding-bottom: -20rem;
+}
+
+.aboutRow{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 5% 0 5%;
+    justify-content: flex-end;
+}
+
+.aboutColTop, .aboutColBottom{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 3;
+    align-items: center;
+}
+
+.aboutCol{
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.aboutPhoto{
+    border-radius: 0.5rem;
+    background-color: gold;
+    width: 7.5rem;
+    height: 7.5rem;
+    color: #1a1916;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2.5rem 0.5rem;
+    transform: translateZ(10rem) translate(-7vw, 50%);
+    position: relative;
+    z-index: 2;
+}
+
+.aboutVideo{
+    border-radius: 0.5rem;
+    background-color: gold;
+    width: 7.5rem;
+    height: 7.5rem;
+    color: #1a1916;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2.5rem 0.5rem;
+    transform: translateZ(10rem) translate(12vw, 0%);
+    position: relative;
+    z-index: 2;
+}
+
+.aboutEdit{
+    border-radius: 0.5rem;
+    background-color: gold;
+    width: 7.5rem;
+    height: 7.5rem;
+    color: #1a1916;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2.5rem 0.5rem;
+    transform: translateZ(10rem) translate(-7vw, -50%);
+    position: relative;
+    z-index: 2;
+}
+
+.aboutText{
+    background-color: black;
+    border-radius: 0.5rem;
+    background-color: black;
+    width: 60vw;
+    padding: 4rem 3rem 4rem 10rem;
+    position: relative;
+    z-index: -2;
+}
+
+.aboutTextP{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.aboutPicture{
+    border-radius: 0.5rem;
+    width: 27vw;
+    height: auto;
+    transform: translate(30%, 0%);
+    filter: grayscale(100%);
+    position: relative;
+    z-index: -1;
+}
