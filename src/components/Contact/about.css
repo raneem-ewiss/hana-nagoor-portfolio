@@ -31,46 +31,29 @@
     justify-content: center;
 }
 
-.aboutPhoto{
+.aboutPhoto, .aboutVideo, .aboutEdit{
     border-radius: 0.5rem;
     background-color: gold;
     width: 7.5rem;
     height: 7.5rem;
     color: #1a1916;
     text-align: center;
-    font-size: 2rem;
-    padding: 2.5rem 0.5rem;
-    transform: translateZ(10rem) translate(-7vw, 50%);
+    font-size: 0.9rem;
+    padding: 3.3rem 0rem;
     position: relative;
     z-index: 2;
+}
+
+.aboutPhoto{
+    transform: translateZ(10rem) translate(-7vw, 50%);
 }
 
 .aboutVideo{
-    border-radius: 0.5rem;
-    background-color: gold;
-    width: 7.5rem;
-    height: 7.5rem;
-    color: #1a1916;
-    text-align: center;
-    font-size: 2rem;
-    padding: 2.5rem 0.5rem;
     transform: translateZ(10rem) translate(12vw, 0%);
-    position: relative;
-    z-index: 2;
 }
 
 .aboutEdit{
-    border-radius: 0.5rem;
-    background-color: gold;
-    width: 7.5rem;
-    height: 7.5rem;
-    color: #1a1916;
-    text-align: center;
-    font-size: 2rem;
-    padding: 2.5rem 0.5rem;
     transform: translateZ(10rem) translate(-7vw, -50%);
-    position: relative;
-    z-index: 2;
 }
 
 .aboutText{
@@ -92,7 +75,7 @@
     border-radius: 0.5rem;
     width: 27vw;
     height: auto;
-    transform: translate(30%, 0%);
+    transform: translateZ(50rem) translate(30%, 0%);
     filter: grayscale(100%);
     position: relative;
     z-index: -1;

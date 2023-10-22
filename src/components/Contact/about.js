@@ -14,12 +14,12 @@ const About = () => {
       <div className='aboutContent'>
         <div className='aboutRow'>
           <div className='aboutColTop'>
-            <Fade><div><h6 className='aboutPhoto'>Photo</h6></div></Fade>
+            <Fade><div><h6 className='aboutPhoto'>Photographer</h6></div></Fade>
           </div>
         </div>
         <div className='aboutRow'>
           <div className='aboutCol'>
-            <Fade><div><h6 className='aboutVideo'>Video</h6></div></Fade>
+            <Fade><div><h6 className='aboutVideo'>Videographer</h6></div></Fade>
           </div>
           <div className='aboutCol'>
             <div><img className='aboutPicture' src={photo} alt='Profile'/></div>
@@ -45,7 +45,7 @@ const About = () => {
         </div>
         <div className='aboutRow'>
           <div className='aboutColBottom'>
-            <Fade><div><h6 className='aboutEdit'>Edit</h6></div></Fade>
+            <Fade><div><h6 className='aboutEdit'>Editor</h6></div></Fade>
           </div>
         </div>
       </div>

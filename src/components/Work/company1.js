@@ -41,7 +41,7 @@ const Company1 = () => {
             <div className='workText'>
                 <Fade>
                 <h2 className='workCompany'>Company Name</h2>
-                <p className='workJob'>Videographer/ Video editor/Photographer work</p>
+                <p className='workJob'>Videographer / Video editor / Photographer</p>
                 <p className='workDescription'><strong>Filmed and edited</strong> content for various upscale clients in the fashion and perfume industry including- Hind al Oud, Baruni, Style Gallery, Madame Tussauds etc.</p>
                 <p className='workDescription'><strong>Coordinated shoots</strong>, worked with models when filming, and photographed in various fields including editorial, product photography, jewellery, fashion etc.</p>
                 <p className='workDescription'><strong>Curated content</strong> for Instagram grids and worked to tight deadlines to develop ideas and create content for social media platforms.</p>
