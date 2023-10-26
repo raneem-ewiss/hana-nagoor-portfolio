@@ -12,7 +12,7 @@ const Footer = () => {
             <section className='footerContent'>
                 <div className='footerAbout'>
                     <div className='Logo'>
-                        <img src={Logo} width={40}/>
+                        <img src={Logo} width={40} alt='Logo'/>
                         <h1>Hana Nagoor Art</h1>
                     </div>
                     <ul className='footerIcons'>
